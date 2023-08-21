@@ -1,5 +1,6 @@
 package ru.netology;
 
+import Data.TestMode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +9,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class TestModeTest {
-
     @BeforeEach
     void createUrl() {
         open("http://localhost:9999/");
